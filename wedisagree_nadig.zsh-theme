@@ -35,22 +35,22 @@ time_enabled="%(?.%{$fg[green]%}.%{$fg[red]%})%*%{$reset_color%}"
 time_disabled="%{$fg[green]%}%*%{$reset_color%}"
 time=$time_enabled
 
-ZSH_THEME_GIT_PROMPT_PREFIX=" —™ %{$fg[red]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX=" Ѫ %{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%} ‚òÇ" # ‚íπ
-ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[cyan]%} ‚ú≠" # ‚ì£
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%} ‚òÄ" # ‚ìÑ
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%} ☂" # Ⓓ
+ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[cyan]%} ✭" # ⓣ
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%} ☀" # Ⓞ
 
-ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[cyan]%} ‚úö" # ‚ìê ‚ëÉ
-ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[yellow]%} ‚ö°"  # ‚ìú ‚ëÅ
-ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%} ‚úñ" # ‚ìß ‚ëÇ
-ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%} ‚ûú" # ‚ì° ‚ëÑ
-ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[magenta]%} ‚ôí" # ‚ì§ ‚ëä
+ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[cyan]%} ✚" # ⓐ ⑃
+ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[yellow]%} ⚡"  # ⓜ ⑁
+ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%} ✖" # ⓧ ⑂
+ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%} ➜" # ⓡ ⑄
+ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[magenta]%} ♒" # ⓤ ⑊
 
 # More symbols to choose from:
-# ‚òÄ ‚úπ ‚òÑ ‚ôÜ ‚ôÄ ‚ôÅ ‚ôê ‚ôá ‚ôà ‚ôâ ‚ôö ‚ôõ ‚ôú ‚ôù ‚ôû ‚ôü ‚ô† ‚ô£ ‚ö¢ ‚ö≤ ‚ö≥ ‚ö¥ ‚ö• ‚ö§ ‚ö¶ ‚öí ‚öë ‚öê ‚ô∫ ‚ôª ‚ôº ‚ò∞ ‚ò± ‚ò≤ ‚ò≥ ‚ò¥ ‚òµ ‚ò∂ ‚ò∑
-# ‚ú° ‚úî ‚úñ ‚úö ‚ú± ‚ú§ ‚ú¶ ‚ù§ ‚ûú ‚ûü ‚ûº ‚úÇ ‚úé ‚úê ‚®Ä ‚®Å ‚®Ç ‚®ç ‚®é ‚®è ‚®∑ ‚©ö ‚©õ ‚©° ‚©± ‚©≤ ‚©µ  ‚©∂ ‚®† 
-# ‚¨Ö ‚¨Ü ‚¨á ‚¨à ‚¨â ‚¨ä ‚¨ã ‚¨í ‚¨ì ‚¨î ‚¨ï ‚¨ñ ‚¨ó ‚¨ò ‚¨ô ‚¨ü  ‚¨§ „Äí «Ä «Å «Ç ƒ≠ ≈§ ≈¶
+# ☀ ✹ ☄ ♆ ♀ ♁ ♐ ♇ ♈ ♉ ♚ ♛ ♜ ♝ ♞ ♟ ♠ ♣ ⚢ ⚲ ⚳ ⚴ ⚥ ⚤ ⚦ ⚒ ⚑ ⚐ ♺ ♻ ♼ ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷
+# ✡ ✔ ✖ ✚ ✱ ✤ ✦ ❤ ➜ ➟ ➼ ✂ ✎ ✐ ⨀ ⨁ ⨂ ⨍ ⨎ ⨏ ⨷ ⩚ ⩛ ⩡ ⩱ ⩲ ⩵  ⩶ ⨠ 
+# ⬅ ⬆ ⬇ ⬈ ⬉ ⬊ ⬋ ⬒ ⬓ ⬔ ⬕ ⬖ ⬗ ⬘ ⬙ ⬟  ⬤ 〒 ǀ ǁ ǂ ĭ Ť Ŧ
 
 # Determine if we are using a gemset.
 function rvm_gemset() {
